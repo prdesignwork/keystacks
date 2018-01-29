@@ -12,50 +12,116 @@ export default class DataSheet_localizationSheet {
     item = {};
     item.key = key++;
     this.items.push(item);
-    item['key'] = "button2_label_201794";
-    item['en'] = "Create An Account";
-    
-    item = {};
-    item.key = key++;
-    this.items.push(item);
-    item['key'] = "button1_label_730410";
-    item['en'] = "Sign Up";
-    
-    item = {};
-    item.key = key++;
-    this.items.push(item);
-    item['key'] = "input_label_906891";
+    item['key'] = "backarrow_n_852426";
     item['en'] = "";
     
     item = {};
     item.key = key++;
     this.items.push(item);
-    item['key'] = "buttonstack_capstonepresentatio_754506";
+    item['key'] = "buttonkey_label_513900";
+    item['en'] = "Intro";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "button2_label_915033";
+    item['en'] = "Create Account";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "button1_label_182851";
+    item['en'] = "Sign In";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "input_label_758081";
     item['en'] = "";
     
     item = {};
     item.key = key++;
     this.items.push(item);
-    item['key'] = "backarrow_n_269067";
-    item['en'] = "";
+    item['key'] = "buttonkeyexpandtop_label_18986";
+    item['en'] = "Intro";
     
     item = {};
     item.key = key++;
     this.items.push(item);
-    item['key'] = "homelogin_password_771633";
+    item['key'] = "buttonkeyexpandbottom_label_866384";
+    item['en'] = "Hi, my name is Paul Rodriguez and I am Creative Full Stack Developer here in Denver, CO";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "buttonstack_title_282944";
+    item['en'] = "Kevin & Anne\nBest Man Speech";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n03keys_label_215177";
+    item['en'] = "Keys";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n03keys_label2_741960";
+    item['en'] = "Capstone Presentation";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n02stacks_label_274449";
+    item['en'] = "Stacks";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n02stacks_label2_555474";
+    item['en'] = "@prdesignwork";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n01home_password_912055";
     item['en'] = "Password";
     
     item = {};
     item.key = key++;
     this.items.push(item);
-    item['key'] = "homelogin_username_429373";
+    item['key'] = "n01home_username_652148";
     item['en'] = "Username";
     
     item = {};
     item.key = key++;
     this.items.push(item);
-    item['key'] = "homeheader_asimpleflashcard_212165";
-    item['en'] = "";
+    item['key'] = "n01home_label_939367";
+    item['en'] = "A Simple Flash Card App to help with Memorization and Public Speaking";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n04keysexpanded_label_196338";
+    item['en'] = "KEYS";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n04keysexpanded_label2_892673";
+    item['en'] = "Capstone Presentations";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n04keysexpanded_label_777755";
+    item['en'] = "Keys";
+    
+    item = {};
+    item.key = key++;
+    this.items.push(item);
+    item['key'] = "n04keysexpanded_label2_255559";
+    item['en'] = "Capstone Presentation";
   }
 
   addItem = (item) => {

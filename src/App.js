@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import LocalizedStrings from 'react-localization';
 import './App.css';
-import HomeLoginScreen from './HomeLoginScreen.js';
+import N04KeysexpandedScreen from './N04KeysexpandedScreen.js';
+import N03KeysScreen from './N03KeysScreen.js';
+import N02StacksScreen from './N02StacksScreen.js';
+import N01HomeScreen from './N01HomeScreen.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 
 
@@ -16,7 +19,7 @@ export default class App extends Component {
     this.dataSlots['ds_activeLang'] = "en";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);    this.state = {
-      currentScreen: 'homelogin',
+      currentScreen: 'n01home',
       currentScreenProps: {},
       screenFormatId: '',
       screenTransitionForward: true,
@@ -115,8 +118,14 @@ export default class App extends Component {
       switch (screenId) {
         default:
           return null;
-        case 'homelogin':
-          return (<HomeLoginScreen {...screenProps} />)
+        case 'n04keysexpanded':
+          return (<N04KeysexpandedScreen {...screenProps} />)
+        case 'n03keys':
+          return (<N03KeysScreen {...screenProps} />)
+        case 'n02stacks':
+          return (<N02StacksScreen {...screenProps} />)
+        case 'n01home':
+          return (<N01HomeScreen {...screenProps} />)
       }
     }
 

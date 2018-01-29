@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import img_elButton1 from './images/Button1_elButton1.png';
+import img_elButton12 from './images/Button1_elButton12.png';
 
 
 export default class Button1 extends Component {
@@ -18,6 +19,11 @@ export default class Button1 extends Component {
         backgroundSize: '100% 100%',
         pointerEvents: 'none',
      };
+    const style_button12 = {
+        backgroundImage: 'url('+img_elButton12+')',
+        backgroundSize: '100% 100%',
+        pointerEvents: 'none',
+     };
     const style_label = {
         fontSize: 19.5,
         fontFamily: "'Helvetica-Bold', sans-serif",
@@ -30,8 +36,9 @@ export default class Button1 extends Component {
       <div className="Button1" style={baseStyle}>
         <div className="compContent">
           <div className='elButton1' style={style_button1} />
+          <div className='elButton12' style={style_button12} />
           <div className='elLabel' style={style_label}>
-            <div>{this.props.locStrings.button1_label_730410}</div>
+            <div>{this.props.locStrings.button1_label_182851}</div>
           </div>
         </div>
       </div>

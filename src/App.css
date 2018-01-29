@@ -1,9 +1,21 @@
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: ArialNarrow-Bold;
+  src: url('fonts/Arial Narrow Bold.ttf');
+}
+
+/* Font copied in place by React Studio. Please check that your license for this font file permits embedding on a website. */
+@font-face {
+  font-family: ArialUnicodeMS;
+  src: url('fonts/Arial Unicode.ttf');
+}
+
 .App { /* Base font style */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
   font-size: 15.1px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgba(0, 0, 0, 0.8500);
+  color: #b4b6b9;
   background-color: #191f25;
 }
 
@@ -17,19 +29,19 @@
 }
 
 .App .cardBg {
-  background-color: #39434d;
+  background-color: #b4b6b9;
 }
 
 .App .baseTextBg { /* Base text color as background */
-  background-color: rgba(0, 0, 0, 0.8500);
+  background-color: #b4b6b9;
 }
 
 .App .secondaryTextColor {
-  color: rgba(0, 0, 0, 0.5000);
+  color: #73748b;
 }
 
 .App .secondaryTextBg {
-  background-color: rgba(0, 0, 0, 0.5000);
+  background-color: #73748b;
 }
 
 .App .primaryTextColor {
@@ -119,7 +131,7 @@
 }
 .App .navBar {
   background-color: #39434d;
-  color: black;
+  color: #b4b6b9;
   position: fixed;
   left: 0;
   top: 0;
@@ -129,7 +141,7 @@
 }
 
 .App .navBar a {
-  color: black;
+  color: #b4b6b9;
 }
 
 .App .navBar .title {
@@ -255,6 +267,1974 @@
 }
 
 /* This component has a fixed-size layout */
+  .Backarrow {
+    min-height: 30px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 29px */
+  }
+
+
+  .Backarrow .elMask {
+    position: absolute;
+    left: 11px;
+    top: 6px;
+    width: 6px;
+    height: 17px;
+  }
+
+
+  .Backarrow .elV {
+    position: absolute;
+    left: -2px;
+    top: 0px;
+    width: 33px;
+    height: 28px;
+  }
+
+/* This component has a fixed-size layout */
+  .Buttonkeyexpandtop {
+    min-height: 31px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 265px */
+  }
+
+
+  .Buttonkeyexpandtop .elMask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 265px;
+    height: 31px;
+  }
+
+
+  .Buttonkeyexpandtop .elButtonkey {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 265px;
+    height: 31px;
+  }
+
+
+  .Buttonkeyexpandtop .elLabel {
+    position: absolute;
+    left: 17px;
+    top: 1px;
+    width: 231px;
+    height: 22px;
+  }
+
+
+  .Buttonkeyexpandtop .elIconexpand {
+    position: absolute;
+    left: 233px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+/* This component has a fixed-size layout */
+  .Buttonkeyexpandbottom {
+    min-height: 53px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 265px */
+  }
+
+
+  .Buttonkeyexpandbottom .elMask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 265px;
+    height: 52px;
+  }
+
+
+  .Buttonkeyexpandbottom .elButtonkeyexpanded {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 265px;
+    height: 52px;
+  }
+
+
+  .Buttonkeyexpandbottom .elLabel {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 214px;
+    height: 46px;
+  }
+
+/* This component has a fixed-size layout */
+  .Keystackslogo {
+    min-height: 28px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 231px */
+  }
+
+
+  .Keystackslogo .elKeystackslogo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 230px;
+    height: 28px;
+  }
+
+/* This component has a fixed-size layout */
+  .Header {
+    min-height: 47px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 321px */
+  }
+
+
+  .Header .elHeader {
+    position: absolute;
+    left: -320px;
+    top: 0px;
+    width: 1011px;
+    height: 47px;
+  }
+
+/* This component has a fixed-size layout */
+  .Buttonnewkey {
+    min-height: 60px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 60px */
+  }
+
+
+  .Buttonnewkey .elMask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+  }
+
+
+  .Buttonnewkey .elOval {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+  }
+
+
+  .Buttonnewkey .elPlus {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    width: 29px;
+    height: 29px;
+  }
+
+/* This component has a fixed-size layout */
+  .Headerkeys {
+    min-height: 47px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 321px */
+  }
+
+
+  .Headerkeys .elHeader {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+
+
+  .Headerkeys .elBackarrow {
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    width: 28px;
+    height: 30px;
+  }
+
+
+  .Headerkeys .elKeystackslogo {
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    width: 230px;
+    height: 30px;
+  }
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .background > .elKeystacks01 {
+    position: absolute;
+    left: -538px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -538px + 0px);
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .background > .elKeystacks01 {
+    left: -415px;
+    right: -119px;
+    top: 0px;
+    width: calc(100% - -415px + -119px);
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .background > .elKeystacks01 {
+    left: -534px;
+    right: -1637px;
+    top: 0px;
+    width: calc(100% - -534px + -1637px);
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .background > .elKeystacks01 {
+    left: -185px;
+    right: -350px;
+    top: 17px;
+    width: calc(100% - -185px + -350px);
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    position: absolute;
+    left: 28px;
+    top: 540px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    left: 152px;
+    top: 540px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    left: 252px;
+    top: 536px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    left: 378px;
+    top: 553px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    position: absolute;
+    left: 28px;
+    top: 500px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    left: 152px;
+    top: 500px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    left: 252px;
+    top: 497px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    left: 378px;
+    top: 514px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    position: absolute;
+    left: 28px;
+    top: 461px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    left: 152px;
+    top: 461px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    left: 252px;
+    top: 458px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    left: 378px;
+    top: 475px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    position: absolute;
+    left: 28px;
+    top: 422px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    left: 152px;
+    top: 422px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    left: 252px;
+    top: 419px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    left: 378px;
+    top: 436px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    position: absolute;
+    left: 28px;
+    top: 382px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    left: 152px;
+    top: 382px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    left: 252px;
+    top: 380px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    left: 378px;
+    top: 397px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    position: absolute;
+    left: 28px;
+    top: 343px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    left: 152px;
+    top: 343px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    left: 252px;
+    top: 341px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    left: 378px;
+    top: 358px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    position: absolute;
+    left: 28px;
+    top: 304px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    left: 152px;
+    top: 304px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    left: 252px;
+    top: 302px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    left: 378px;
+    top: 319px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    position: absolute;
+    left: 28px;
+    top: 264px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    left: 152px;
+    top: 264px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    left: 252px;
+    top: 263px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    left: 378px;
+    top: 280px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    position: absolute;
+    left: 28px;
+    top: 226px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    left: 152px;
+    top: 226px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    left: 252px;
+    top: 224px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    left: 378px;
+    top: 241px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    position: absolute;
+    left: 28px;
+    top: 186px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    left: 152px;
+    top: 186px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    left: 252px;
+    top: 185px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    left: 378px;
+    top: 202px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    position: absolute;
+    left: 28px;
+    top: 126px;
+    width: 265px;
+    height: 52px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 53px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    left: 152px;
+    top: 126px;
+    width: 265px;
+    height: 52px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 53px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    left: 252px;
+    top: 124px;
+    width: 263px;
+    height: 52px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 52px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    left: 378px;
+    top: 142px;
+    width: 263px;
+    height: 52px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 52px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 {
+    position: absolute;
+    left: 28px;
+    top: 92px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 {
+    left: 152px;
+    top: 92px;
+    width: 265px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 {
+    left: 252px;
+    top: 92px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 {
+    left: 378px;
+    top: 108px;
+    width: 263px;
+    height: 31px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonkeyexpand12 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    position: absolute;
+    left: 242px;
+    top: 502px;
+    width: 60px;
+    height: 60px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    left: 365px;
+    top: 502px;
+    width: 60px;
+    height: 60px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    left: 464px;
+    top: 500px;
+    width: 60px;
+    height: 60px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    left: 590px;
+    top: 516px;
+    width: 60px;
+    height: 60px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    left: 124px;
+    top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    left: 224px;
+    top: 0px;
+    width: 318px;
+    height: 47px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    left: 350px;
+    top: 17px;
+    width: 318px;
+    height: 47px;
+  }
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel {
+    position: absolute;
+    left: 250px;
+    top: 58px;
+    width: 46px;
+    height: 24px;
+  }
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 369px;
+    top: 58px;
+    width: 46px;
+    height: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 473px;
+    top: 58px;
+    width: 46px;
+    height: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 588px;
+    top: 74px;
+    width: 46px;
+    height: 24px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elSeparator {
+    position: absolute;
+    left: 245px;
+    top: 59px;
+    width: 1px;
+    height: 18px;
+  }
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 364px;
+    top: 59px;
+    width: 1px;
+    height: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 468px;
+    top: 58px;
+    width: 1px;
+    height: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 583px;
+    top: 75px;
+    width: 1px;
+    height: 18px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel2 {
+    position: absolute;
+    left: 12px;
+    top: 60px;
+    width: 228px;
+    height: 20px;
+  }
+@media (min-width: 568px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 131px;
+    top: 60px;
+    width: 228px;
+    height: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 236px;
+    top: 59px;
+    width: 226px;
+    height: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .N04KeysexpandedScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 352px;
+    top: 76px;
+    width: 226px;
+    height: 20px;
+  }
+}
+
+/* This component has a fixed-size layout */
+  .Buttonkey {
+    min-height: 31px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 265px */
+  }
+
+
+  .Buttonkey .elMask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 265px;
+    height: 31px;
+  }
+
+
+  .Buttonkey .elButtonkey {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 265px;
+    height: 31px;
+  }
+
+
+  .Buttonkey .elLabel {
+    position: absolute;
+    left: 17px;
+    top: 1px;
+    width: 231px;
+    height: 22px;
+  }
+
+
+  .Buttonkey .elIconexpand {
+    position: absolute;
+    left: 233px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+/* This component has a fixed-size layout */
+  .Buttonnewstack {
+    min-height: 93px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 93px */
+  }
+
+
+  .Buttonnewstack .elMask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 92px;
+    height: 92px;
+  }
+
+
+  .Buttonnewstack .elOval {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 92px;
+    height: 92px;
+  }
+
+
+  .Buttonnewstack .elPlus {
+    position: absolute;
+    left: 22px;
+    top: 22px;
+    width: 45px;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
+  .Headerstacks {
+    min-height: 47px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 321px */
+  }
+
+
+  .Headerstacks .elHeader {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+
+
+  .Headerstacks .elKeystackslogo {
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    width: 230px;
+    height: 30px;
+  }
+
+/* This component has a fixed-size layout */
+  .Buttonstack {
+    min-height: 116px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 128px */
+  }
+
+
+  .Buttonstack .elMask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 128px;
+    height: 115px;
+  }
+
+
+  .Buttonstack .elButtonstack {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 128px;
+    height: 115px;
+  }
+
+
+  .Buttonstack .elTitle {
+    position: absolute;
+    left: 13px;
+    top: 22px;
+    width: 103px;
+    height: 79px;
+  }
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .background > .elKeystacks01 {
+    position: absolute;
+    left: -538px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -538px + 0px);
+    height: 1432px;
+  }
+@media (min-width: 568px) {
+  .N03KeysScreen > .background > .elKeystacks01 {
+    left: -538px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -538px + 0px);
+    height: 1184px;
+  }
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .background > .elKeystacks01 {
+    left: -535px;
+    right: -1636px;
+    top: 0px;
+    width: calc(100% - -535px + -1636px);
+    height: 1882px;
+  }
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .background > .elKeystacks01 {
+    left: -768px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -768px + 0px);
+    height: 1626px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    position: absolute;
+    left: 28px;
+    top: 484px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    left: 152px;
+    top: 484px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    left: 252px;
+    top: 482px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand {
+    left: 381px;
+    top: 479px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    position: absolute;
+    left: 28px;
+    top: 446px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    left: 152px;
+    top: 446px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    left: 252px;
+    top: 442px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 {
+    left: 381px;
+    top: 440px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand2 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    position: absolute;
+    left: 28px;
+    top: 406px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    left: 152px;
+    top: 406px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    left: 252px;
+    top: 404px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 {
+    left: 381px;
+    top: 401px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand3 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    position: absolute;
+    left: 28px;
+    top: 367px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    left: 152px;
+    top: 367px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    left: 252px;
+    top: 364px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 {
+    left: 381px;
+    top: 362px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand4 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    position: absolute;
+    left: 28px;
+    top: 328px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    left: 152px;
+    top: 328px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    left: 252px;
+    top: 326px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 {
+    left: 381px;
+    top: 323px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand5 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    position: absolute;
+    left: 28px;
+    top: 288px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    left: 152px;
+    top: 288px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    left: 252px;
+    top: 286px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 {
+    left: 381px;
+    top: 284px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand6 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    position: absolute;
+    left: 28px;
+    top: 249px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    left: 152px;
+    top: 249px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    left: 252px;
+    top: 248px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 {
+    left: 381px;
+    top: 245px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand7 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    position: absolute;
+    left: 28px;
+    top: 210px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    left: 152px;
+    top: 210px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    left: 252px;
+    top: 208px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 {
+    left: 381px;
+    top: 206px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand8 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    position: absolute;
+    left: 28px;
+    top: 170px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    left: 152px;
+    top: 170px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    left: 252px;
+    top: 170px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 {
+    left: 381px;
+    top: 167px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand9 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    position: absolute;
+    left: 28px;
+    top: 132px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    left: 152px;
+    top: 132px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    left: 252px;
+    top: 130px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 {
+    left: 381px;
+    top: 128px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand10 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    position: absolute;
+    left: 28px;
+    top: 92px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 31px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    left: 152px;
+    top: 92px;
+    width: 265px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    left: 252px;
+    top: 92px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 {
+    left: 381px;
+    top: 89px;
+    width: 263px;
+    height: 31px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonkeyexpand11 .containerMinHeight {
+    min-height: 31px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    position: absolute;
+    left: 242px;
+    top: 502px;
+    width: 60px;
+    height: 60px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    left: 365px;
+    top: 502px;
+    width: 60px;
+    height: 60px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    left: 464px;
+    top: 500px;
+    width: 60px;
+    height: 60px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey {
+    left: 593px;
+    top: 497px;
+    width: 60px;
+    height: 60px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elButtonnewkey .containerMinHeight {
+    min-height: 60px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel {
+    position: absolute;
+    left: 250px;
+    top: 58px;
+    width: 46px;
+    height: 24px;
+  }
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 374px;
+    top: 58px;
+    width: 46px;
+    height: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 473px;
+    top: 58px;
+    width: 46px;
+    height: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 602px;
+    top: 55px;
+    width: 46px;
+    height: 24px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elSeparator {
+    position: absolute;
+    left: 245px;
+    top: 59px;
+    width: 1px;
+    height: 18px;
+  }
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 369px;
+    top: 59px;
+    width: 1px;
+    height: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 468px;
+    top: 58px;
+    width: 1px;
+    height: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 597px;
+    top: 56px;
+    width: 1px;
+    height: 18px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel2 {
+    position: absolute;
+    left: 12px;
+    top: 60px;
+    width: 228px;
+    height: 20px;
+  }
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 136px;
+    top: 60px;
+    width: 228px;
+    height: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 236px;
+    top: 59px;
+    width: 226px;
+    height: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 365px;
+    top: 56px;
+    width: 226px;
+    height: 20px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+@media (min-width: 568px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    left: 124px;
+    top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    left: 224px;
+    top: 0px;
+    width: 318px;
+    height: 47px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys {
+    left: 353px;
+    top: 0px;
+    width: 318px;
+    height: 47px;
+  }
+  .N03KeysScreen > .screenFgContainer > .foreground > .elHeaderkeys .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+
+/* This component has a fixed-size layout */
   .Button2 {
     min-height: 43px;
     overflow: hidden;
@@ -271,12 +2251,37 @@
   }
 
 
+  .Button2 .elButton22 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 154px;
+    height: 43px;
+  }
+
+
   .Button2 .elLabel {
     position: absolute;
     left: 7px;
     top: 0px;
     width: 141px;
-    height: 41px;
+    height: 22px;
+  }
+
+/* This component has a fixed-size layout */
+  .Keystackslogostacked {
+    min-height: 150px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 231px */
+  }
+
+
+  .Keystackslogostacked .elKeystackslogostacked {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 230px;
+    height: 150px;
   }
 
 /* This component has a fixed-size layout */
@@ -296,6 +2301,15 @@
   }
 
 
+  .Button1 .elButton12 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 191px;
+    height: 43px;
+  }
+
+
   .Button1 .elLabel {
     position: absolute;
     left: 20px;
@@ -304,392 +2318,841 @@
     height: 28px;
   }
 
-/* This component has a fixed-size layout */
-  .Homelogin {
-    min-height: 210px;
-    overflow: hidden;
-    width: 100%; /* This component was designed using a width of 269px */
-  }
 
-
-  .Homelogin .elButton2 {
-    position: absolute;
-    left: 58px;
-    top: 166px;
-    width: 154px;
-    height: 43px;
-  }
-
-
-  .Homelogin .elButton1 {
-    position: absolute;
-    left: 39px;
-    top: 112px;
-    width: 192px;
-    height: 43px;
-  }
-
-
-  .Homelogin .elPassword {
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .background > .elKeystacks01 {
     position: absolute;
     left: 0px;
-    top: 54px;
-    width: 269px;
-    height: 43px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 1820px;
+  }
+@media (min-width: 568px) {
+  .N02StacksScreen > .background > .elKeystacks01 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 1572px;
+  }
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .background > .elKeystacks01 {
+    left: 0px;
+    right: -739px;
+    top: 0px;
+    width: calc(100% - 0px + -739px);
+    height: 2269px;
+  }
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .background > .elKeystacks01 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 2013px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack {
+    position: absolute;
+    left: 201px;
+    top: 454px;
+    width: 92px;
+    height: 92px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack .containerMinHeight {
+    min-height: 93px;
   }
 
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack {
+    left: 460px;
+    top: 195px;
+    width: 92px;
+    height: 92px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack .containerMinHeight {
+    min-height: 93px;
+  }
 
-  .Homelogin .elUsername {
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack {
+    left: 426px;
+    top: 451px;
+    width: 92px;
+    height: 92px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack .containerMinHeight {
+    min-height: 92px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack {
+    left: 541px;
+    top: 451px;
+    width: 92px;
+    height: 92px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonnewstack .containerMinHeight {
+    min-height: 92px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 {
+    position: absolute;
+    left: 26px;
+    top: 97px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 .containerMinHeight {
+    min-height: 116px;
+  }
+
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 {
+    left: 20px;
+    top: 218px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 .containerMinHeight {
+    min-height: 116px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 {
+    left: 253px;
+    top: 96px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 {
+    left: 367px;
+    top: 96px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack1 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 {
+    position: absolute;
+    left: 163px;
+    top: 96px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 .containerMinHeight {
+    min-height: 116px;
+  }
+
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 {
+    left: 429px;
+    top: 90px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 .containerMinHeight {
+    min-height: 116px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 {
+    left: 388px;
+    top: 96px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 {
+    left: 503px;
+    top: 96px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack2 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 {
+    position: absolute;
+    left: 26px;
+    top: 224px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 .containerMinHeight {
+    min-height: 116px;
+  }
+
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 {
+    left: 293px;
+    top: 90px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 .containerMinHeight {
+    min-height: 116px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 {
+    left: 253px;
+    top: 223px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 {
+    left: 367px;
+    top: 223px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack3 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 {
+    position: absolute;
+    left: 163px;
+    top: 226px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 .containerMinHeight {
+    min-height: 116px;
+  }
+
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 {
+    left: 156px;
+    top: 92px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 .containerMinHeight {
+    min-height: 116px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 {
+    left: 388px;
+    top: 224px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 {
+    left: 503px;
+    top: 224px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack4 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 {
+    position: absolute;
+    left: 26px;
+    top: 352px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 .containerMinHeight {
+    min-height: 116px;
+  }
+
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 {
+    left: 20px;
+    top: 92px;
+    width: 128px;
+    height: 116px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 .containerMinHeight {
+    min-height: 116px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 {
+    left: 253px;
+    top: 349px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 {
+    left: 367px;
+    top: 349px;
+    width: 128px;
+    height: 114px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elButtonstack5 .containerMinHeight {
+    min-height: 115px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel {
+    position: absolute;
+    left: 236px;
+    top: 58px;
+    width: 60px;
+    height: 24px;
+  }
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 236px;
+    top: 58px;
+    width: 60px;
+    height: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 460px;
+    top: 57px;
+    width: 60px;
+    height: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel {
+    left: 575px;
+    top: 57px;
+    width: 60px;
+    height: 24px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elSeparator {
+    position: absolute;
+    left: 230px;
+    top: 59px;
+    width: 1px;
+    height: 18px;
+  }
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 230px;
+    top: 59px;
+    width: 1px;
+    height: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 455px;
+    top: 58px;
+    width: 1px;
+    height: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elSeparator {
+    left: 570px;
+    top: 58px;
+    width: 1px;
+    height: 18px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel2 {
+    position: absolute;
+    left: -2px;
+    top: 58px;
+    width: 228px;
+    height: 20px;
+  }
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: -2px;
+    top: 58px;
+    width: 228px;
+    height: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 224px;
+    top: 58px;
+    width: 226px;
+    height: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elLabel2 {
+    left: 339px;
+    top: 58px;
+    width: 226px;
+    height: 20px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks {
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 320px;
+    height: 47px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks .containerMinHeight {
+    min-height: 47px;
+  }
+
+@media (min-width: 568px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks {
+    left: 0px;
+    top: 0px;
+    width: 566px;
+    height: 47px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks {
+    left: 226px;
+    top: 0px;
+    width: 318px;
+    height: 47px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks {
+    left: 341px;
+    top: 0px;
+    width: 318px;
+    height: 47px;
+  }
+  .N02StacksScreen > .screenFgContainer > .foreground > .elHeaderstacks .containerMinHeight {
+    min-height: 47px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .background > .elKeystacks01 {
+    position: absolute;
+    left: -538px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -538px + 0px);
+    height: 1297px;
+  }
+@media (min-width: 568px) {
+  .N01HomeScreen > .background > .elKeystacks01 {
+    left: -776px;
+    right: 0px;
+    top: -152px;
+    width: calc(100% - -776px + 0px);
+    height: 452px;
+  }
+}
+@media (min-width: 768px) {
+  .N01HomeScreen > .background > .elKeystacks01 {
+    left: -1264px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -1264px + 0px);
+    height: 1748px;
+  }
+}
+@media (min-width: 1024px) {
+  .N01HomeScreen > .background > .elKeystacks01 {
+    left: -535px;
+    right: 0px;
+    top: 0px;
+    width: calc(100% - -535px + 0px);
+    height: 1492px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 {
+    position: absolute;
+    left: calc(50.0% - 77px);
+    top: 408px;
+    width: 154px;
+    height: 43px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 .containerMinHeight {
+    min-height: 43px;
+  }
+
+@media (min-width: 568px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 {
+    left: calc(50.0% - 77px);
+    top: 248px;
+    width: 154px;
+    height: 43px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 .containerMinHeight {
+    min-height: 43px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 {
+    left: calc(50.0% - 76px);
+    top: 406px;
+    width: 153px;
+    height: 42px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 .containerMinHeight {
+    min-height: 43px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 {
+    left: calc(50.0% - 76px);
+    top: 406px;
+    width: 153px;
+    height: 42px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton2 .containerMinHeight {
+    min-height: 43px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 {
+    position: absolute;
+    left: calc(50.0% - 96px);
+    top: 354px;
+    width: 192px;
+    height: 43px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 .containerMinHeight {
+    min-height: 43px;
+  }
+
+@media (min-width: 568px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 {
+    left: calc(50.0% - 96px);
+    top: 194px;
+    width: 192px;
+    height: 43px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 .containerMinHeight {
+    min-height: 43px;
+  }
+
+}
+@media (min-width: 768px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 {
+    left: calc(50.0% - 95px);
+    top: 352px;
+    width: 190px;
+    height: 42px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 .containerMinHeight {
+    min-height: 43px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 {
+    left: calc(50.0% - 95px);
+    top: 352px;
+    width: 190px;
+    height: 42px;
+  }
+  .N01HomeScreen > .screenFgContainer > .foreground > .elButton1 .containerMinHeight {
+    min-height: 43px;
+  }
+
+}
+
+
+.N01HomeScreen > .screenFgContainer > .foreground > .elPassword input {
+  color: #39434d;
+}
+
+.N01HomeScreen > .screenFgContainer > .foreground > .elPassword input::input-placeholder {
+  color: rgba(57, 67, 77, 0.5000);
+}
+
+.N01HomeScreen > .screenFgContainer > .foreground > .elPassword input::placeholder {
+  color: rgba(57, 67, 77, 0.5000);
+}
+
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .screenFgContainer > .foreground > .elPassword {
+    position: absolute;
+    left: calc(50.0% - 134px);
+    top: 296px;
     width: 269px;
     height: 43px;
   }
-
-/* This component has a fixed-size layout */
-  .Homeheader {
-    min-height: 243px;
-    overflow: hidden;
-    width: 100%; /* This component was designed using a width of 269px */
+@media (min-width: 568px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elPassword {
+    left: calc(50.0% - 134px);
+    top: 136px;
+    width: 269px;
+    height: 43px;
   }
+}
+@media (min-width: 768px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elPassword {
+    left: calc(50.0% - 134px);
+    top: 294px;
+    width: 267px;
+    height: 42px;
+  }
+}
+@media (min-width: 1024px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elPassword {
+    left: calc(50.0% - 134px);
+    top: 294px;
+    width: 267px;
+    height: 42px;
+  }
+}
 
 
-  .Homeheader .elASimpleFlashCard {
+.N01HomeScreen > .screenFgContainer > .foreground > .elUsername input {
+  color: #39434d;
+}
+
+.N01HomeScreen > .screenFgContainer > .foreground > .elUsername input::input-placeholder {
+  color: rgba(57, 67, 77, 0.5000);
+}
+
+.N01HomeScreen > .screenFgContainer > .foreground > .elUsername input::placeholder {
+  color: rgba(57, 67, 77, 0.5000);
+}
+
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .screenFgContainer > .foreground > .elUsername {
     position: absolute;
-    left: 4px;
-    top: 182px;
+    left: calc(50.0% - 134px);
+    top: 242px;
+    width: 269px;
+    height: 43px;
+  }
+@media (min-width: 568px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elUsername {
+    left: calc(50.0% - 134px);
+    top: 82px;
+    width: 269px;
+    height: 43px;
+  }
+}
+@media (min-width: 768px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elUsername {
+    left: calc(50.0% - 134px);
+    top: 241px;
+    width: 267px;
+    height: 42px;
+  }
+}
+@media (min-width: 1024px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elUsername {
+    left: calc(50.0% - 134px);
+    top: 241px;
+    width: 267px;
+    height: 42px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .screenFgContainer > .foreground > .elLabel {
+    position: absolute;
+    left: calc(50.0% - 130px);
+    top: 194px;
     width: 261px;
-    height: 17px;
+    height: 31px;
   }
+@media (min-width: 568px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elLabel {
+    left: calc(50.0% - 130px);
+    top: 40px;
+    width: 261px;
+    height: 31px;
+  }
+}
+@media (min-width: 768px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elLabel {
+    left: calc(50.0% - 130px);
+    top: 192px;
+    width: 259px;
+    height: 31px;
+  }
+}
+@media (min-width: 1024px) {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elLabel {
+    left: calc(50.0% - 130px);
+    top: 192px;
+    width: 259px;
+    height: 31px;
+  }
+}
 
 
-  .Homeheader .elHeaderlogin {
+/* Narrowest size for this element's responsive layout */
+  .N01HomeScreen > .screenFgContainer > .foreground > .elHeaderlogin {
     position: absolute;
-    left: 0px;
+    left: calc(50.0% - 134px);
     top: 0px;
     width: 269px;
     height: 186px;
   }
-
-
-  .Homeheader .elShape {
-    position: absolute;
-    left: 19px;
-    top: 72px;
-    width: 33px;
-    height: 41px;
-  }
-
-
-  .Homeheader .elShape2 {
-    position: absolute;
-    left: 57px;
-    top: 72px;
-    width: 33px;
-    height: 41px;
-  }
-
-
-  .Homeheader .elShape3 {
-    position: absolute;
-    left: 94px;
-    top: 72px;
-    width: 33px;
-    height: 41px;
-  }
-
-
-  .Homeheader .elShape4 {
-    position: absolute;
-    left: 18px;
-    top: 125px;
-    width: 35px;
-    height: 43px;
-  }
-
-
-  .Homeheader .elShape5 {
-    position: absolute;
-    left: 56px;
-    top: 125px;
-    width: 35px;
-    height: 43px;
-  }
-
-
-  .Homeheader .elShape6 {
-    position: absolute;
-    left: 88px;
-    top: 125px;
-    width: 38px;
-    height: 43px;
-  }
-
-
-  .Homeheader .elShape7 {
-    position: absolute;
-    left: 129px;
-    top: 125px;
-    width: 36px;
-    height: 43px;
-  }
-
-
-  .Homeheader .elShape8 {
-    position: absolute;
-    left: 175px;
-    top: 125px;
-    width: 35px;
-    height: 43px;
-  }
-
-
-  .Homeheader .elShape9 {
-    position: absolute;
-    left: 216px;
-    top: 125px;
-    width: 35px;
-    height: 43px;
-  }
-
-
-  .Homeheader .elShape10 {
-    position: absolute;
-    left: 17px;
-    top: 36px;
-    width: 36px;
-    height: 4px;
-  }
-
-
-  .Homeheader .elShape11 {
-    position: absolute;
-    left: 17px;
-    top: 44px;
-    width: 36px;
-    height: 4px;
-  }
-
-
-  .Homeheader .elShape12 {
-    position: absolute;
-    left: 17px;
-    top: 53px;
-    width: 36px;
-    height: 4px;
-  }
-
-
-  .Homeheader .elShape13 {
-    position: absolute;
-    left: 19px;
-    top: 19px;
-    width: 32px;
-    height: 13px;
-  }
-
-
-  .Homeheader .elGroup {
-    position: absolute;
-    left: 126px;
-    top: 100px;
-    width: 125px;
-    height: 11px;
-  }
-
-
-  .Homeheader .elShape14 {
-    position: absolute;
-    left: 137px;
-    top: 74px;
-    width: 115px;
-    height: 11px;
-  }
-
-
-  .Homeheader .elGroup2 {
-    position: absolute;
-    left: 62px;
-    top: 46px;
-    width: 189px;
-    height: 11px;
-  }
-
-
-  .Homeheader .elGroup3 {
-    position: absolute;
-    left: 62px;
-    top: 23px;
-    width: 189px;
-    height: 11px;
-  }
-
-
-/* Narrowest size for this element's responsive layout */
-  .HomeLoginScreen > .background > .elKeystacks01 {
-    position: absolute;
-    left: -538px;
-    top: 0px;
-    width: 858px;
-    height: 568px;
-  }
 @media (min-width: 568px) {
-  .HomeLoginScreen > .background > .elKeystacks01 {
-    left: -538px;
-    top: 0px;
-    width: 858px;
-    height: 568px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elHeaderlogin {
+    left: calc(50.0% - 134px);
+    top: -19px;
+    width: 269px;
+    height: 186px;
   }
 }
 @media (min-width: 768px) {
-  .HomeLoginScreen > .background > .elKeystacks01 {
-    left: -535px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elHeaderlogin {
+    left: calc(50.0% - 134px);
     top: 0px;
-    width: 854px;
-    height: 565px;
+    width: 267px;
+    height: 185px;
   }
 }
 @media (min-width: 1024px) {
-  .HomeLoginScreen > .background > .elKeystacks01 {
-    left: -535px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elHeaderlogin {
+    left: calc(50.0% - 134px);
     top: 0px;
-    width: 854px;
-    height: 565px;
+    width: 267px;
+    height: 185px;
   }
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin {
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked {
     position: absolute;
-    left: 26px;
-    top: 242px;
-    width: 269px;
-    height: 210px;
+    left: calc(50.0% - 115px);
+    top: 18px;
+    width: 230px;
+    height: 150px;
   }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin .containerMinHeight {
-    min-height: 210px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked .containerMinHeight {
+    min-height: 150px;
   }
 
 @media (min-width: 568px) {
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin {
-    left: 26px;
-    top: 242px;
-    width: 269px;
-    height: 210px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked {
+    left: calc(50.0% - 115px);
+    top: 0px;
+    width: 230px;
+    height: 150px;
   }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin .containerMinHeight {
-    min-height: 210px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked .containerMinHeight {
+    min-height: 150px;
   }
 
 }
 @media (min-width: 768px) {
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin {
-    left: 25px;
-    top: 241px;
-    width: 268px;
-    height: 208px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked {
+    left: calc(50.0% - 114px);
+    top: 18px;
+    width: 229px;
+    height: 148px;
   }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin .containerMinHeight {
-    min-height: 208px;
-  }
-
-}
-@media (min-width: 1024px) {
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin {
-    left: 25px;
-    top: 241px;
-    width: 268px;
-    height: 208px;
-  }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomelogin .containerMinHeight {
-    min-height: 208px;
-  }
-
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader {
-    position: absolute;
-    left: 26px;
-    top: 0px;
-    width: 269px;
-    height: 242px;
-  }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader .containerMinHeight {
-    min-height: 243px;
-  }
-
-@media (min-width: 568px) {
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader {
-    left: 26px;
-    top: 0px;
-    width: 269px;
-    height: 242px;
-  }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader .containerMinHeight {
-    min-height: 243px;
-  }
-
-}
-@media (min-width: 768px) {
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader {
-    left: 25px;
-    top: 0px;
-    width: 268px;
-    height: 241px;
-  }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader .containerMinHeight {
-    min-height: 241px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked .containerMinHeight {
+    min-height: 149px;
   }
 
 }
 @media (min-width: 1024px) {
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader {
-    left: 25px;
-    top: 0px;
-    width: 268px;
-    height: 241px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked {
+    left: calc(50.0% - 114px);
+    top: 18px;
+    width: 229px;
+    height: 148px;
   }
-  .HomeLoginScreen > .screenFgContainer > .foreground > .elHomeheader .containerMinHeight {
-    min-height: 241px;
+  .N01HomeScreen > .screenFgContainer > .foreground > .elKeystackslogostacked .containerMinHeight {
+    min-height: 149px;
   }
 
 }
-
-/* This component has a fixed-size layout */
-  .Buttonkey {
-    min-height: 31px;
-    overflow: hidden;
-    min-width: 265px;
-     /* This component has a fixed size */
-  }
-
-
-  .Buttonkey .elButtonkey {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 265px;
-    height: 31px;
-  }
-
-/* This component has a fixed-size layout */
-  .Iconexpand {
-    min-height: 21px;
-    overflow: hidden;
-    min-width: 21px;
-     /* This component has a fixed size */
-  }
-
-
-  .Iconexpand .elIconexpand {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 20px;
-    height: 20px;
-  }
 
