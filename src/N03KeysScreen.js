@@ -11,6 +11,13 @@ export default class N03KeysScreen extends Component {
   // Properties used by this component:
   // appActions, deviceInfo
 
+  onClick_elButtonkeyexpand3 = (ev) => {
+    // Go to screen '04-Keys-expanded'
+    this.props.appActions.goToScreen('n04keysexpanded', { ...this.props, transitionId: 'fadeIn' });
+  
+  }
+  
+  
   onClick_elButtonnewkey = (ev) => {
     // Go to screen '04-Keys-expanded'
     this.props.appActions.goToScreen('n04keysexpanded', { transitionId: 'fadeIn' });
@@ -36,6 +43,9 @@ export default class N03KeysScreen extends Component {
         backgroundSize: 'cover',
         backgroundPosition: '50% 50%',
         pointerEvents: 'none',
+     };
+    const style_buttonkeyexpand3 = {
+        cursor: 'pointer',
      };
     const style_buttonnewkey = {
         cursor: 'pointer',
@@ -73,7 +83,7 @@ export default class N03KeysScreen extends Component {
             <div className='hasNestedComps elButtonkeyexpand2'>
               <Buttonkey appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
-            <div className='hasNestedComps elButtonkeyexpand3'>
+            <div className='hasNestedComps elButtonkeyexpand3' style={style_buttonkeyexpand3} onClick={this.onClick_elButtonkeyexpand3} >
               <Buttonkey appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
             <div className='hasNestedComps elButtonkeyexpand4'>

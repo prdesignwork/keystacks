@@ -23,7 +23,7 @@ export default class N01HomeScreen extends Component {
 
   onClick_elButton1 = (ev) => {
     // Go to screen '02-Stacks'
-    this.props.appActions.goToScreen('n02stacks', { transitionId: 'fadeIn' });
+    this.props.appActions.goToScreen('n02stacks', { ...this.props, transitionId: 'fadeIn' });
   
   }
   

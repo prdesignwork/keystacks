@@ -13,7 +13,21 @@ export default class N02StacksScreen extends Component {
 
   onClick_elButtonnewstack = (ev) => {
     // Go to screen '03-Keys'
-    this.props.appActions.goToScreen('n03keys', { transitionId: 'fadeIn' });
+    this.props.appActions.goToScreen('n03keys', { ...this.props, transitionId: 'fadeIn' });
+  
+  }
+  
+  
+  onClick_elButtonstack1 = (ev) => {
+    // Go to screen '03-Keys'
+    this.props.appActions.goToScreen('n03keys', { ...this.props, transitionId: 'fadeIn' });
+  
+  }
+  
+  
+  onClick_elButtonstack3 = (ev) => {
+    // Go to screen '03-Keys'
+    this.props.appActions.goToScreen('n03keys', { ...this.props, transitionId: 'fadeIn' });
   
   }
   
@@ -38,6 +52,12 @@ export default class N02StacksScreen extends Component {
         pointerEvents: 'none',
      };
     const style_buttonnewstack = {
+        cursor: 'pointer',
+     };
+    const style_buttonstack1 = {
+        cursor: 'pointer',
+     };
+    const style_buttonstack3 = {
         cursor: 'pointer',
      };
     const style_label = {
@@ -70,13 +90,13 @@ export default class N02StacksScreen extends Component {
             <div className='hasNestedComps elButtonnewstack' style={style_buttonnewstack} onClick={this.onClick_elButtonnewstack} >
               <Buttonnewstack appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
-            <div className='hasNestedComps elButtonstack1'>
+            <div className='hasNestedComps elButtonstack1' style={style_buttonstack1} onClick={this.onClick_elButtonstack1} >
               <Buttonstack appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
             <div className='hasNestedComps elButtonstack2'>
               <Buttonstack appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
-            <div className='hasNestedComps elButtonstack3'>
+            <div className='hasNestedComps elButtonstack3' style={style_buttonstack3} onClick={this.onClick_elButtonstack3} >
               <Buttonstack appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
             <div className='hasNestedComps elButtonstack4'>

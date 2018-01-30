@@ -1,6 +1,6 @@
 {
-  "short_name": "Keystacks",
-  "name": "Keystacks",
+  "short_name": "keystacks-app",
+  "name": "keystacks-app",
   "icons": [
     {
       "src": "apple-touch-icon.png",
